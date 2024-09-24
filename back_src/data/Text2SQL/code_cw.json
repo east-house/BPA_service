@@ -1,0 +1,310 @@
+{
+  "data": [
+    {
+      "port": {
+        "PRT_AT_NAME": "부산항",
+        "PRT_AT_CODE": "부산항(020, 021, 022)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "부산 북항",
+        "PRT_AT_CODE": "부산 북항(020)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "감천항",
+        "PRT_AT_CODE": "감천항(021)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "부산항 신항",
+        "PRT_AT_CODE": "부산항 신항(022)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "인천항",
+        "PRT_AT_CODE": "인천항(030)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "평택당진항",
+        "PRT_AT_CODE": "평택당진항(031)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "용기포항",
+        "PRT_AT_CODE": "용기포항(034)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "연평도항",
+        "PRT_AT_CODE": "연평도항(035)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "경인항",
+        "PRT_AT_CODE": "경인항(050)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "동해신항",
+        "PRT_AT_CODE": "동해신항(200)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "삼척항",
+        "PRT_AT_CODE": "삼척항(201)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "동해묵호항",
+        "PRT_AT_CODE": "동해묵호항(202)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "속초항",
+        "PRT_AT_CODE": "속초항(203)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "옥계항",
+        "PRT_AT_CODE": "옥계항(204)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "호산항",
+        "PRT_AT_CODE": "호산항(206)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "대산항",
+        "PRT_AT_CODE": "대산항(300, 303, 304)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "보령항",
+        "PRT_AT_CODE": "보령항(301)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "태안항",
+        "PRT_AT_CODE": "태안항(302)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "당진화력",
+        "PRT_AT_CODE": "당진화력(303)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "보령해양 수산출장소항",
+        "PRT_AT_CODE": "보령해양 수산출장소항(304)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "군산항",
+        "PRT_AT_CODE": "군산항(500)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "장항항",
+        "PRT_AT_CODE": "장항항(501)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "상왕등도항",
+        "PRT_AT_CODE": "상왕등도항(503)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "흑산도항",
+        "PRT_AT_CODE": "흑산도항(601)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "가거항리항",
+        "PRT_AT_CODE": "가거항리항(602)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "목포항",
+        "PRT_AT_CODE": "목포항(610, 616, 617)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "완도항",
+        "PRT_AT_CODE": "완도항(611)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "대불분실",
+        "PRT_AT_CODE": "대불분실(616)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "북항분실",
+        "PRT_AT_CODE": "북항분실(617)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "여수항",
+        "PRT_AT_CODE": "여수항(620)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "여천항",
+        "PRT_AT_CODE": "여천항(621)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "광양항",
+        "PRT_AT_CODE": "광양항(622, 621)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "거문도항",
+        "PRT_AT_CODE": "거문도항(631)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "포항항",
+        "PRT_AT_CODE": "포항항(700, 701, 702)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "포항신항",
+        "PRT_AT_CODE": "포항신항(701)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "영일만항",
+        "PRT_AT_CODE": "영일만항(702)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "후포항",
+        "PRT_AT_CODE": "후포항(703)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "울릉사동항",
+        "PRT_AT_CODE": "울릉사동항(705)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "마산항",
+        "PRT_AT_CODE": "마산항(810)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "삼천포항",
+        "PRT_AT_CODE": "삼천포항(811)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "옥포항",
+        "PRT_AT_CODE": "옥포항(812)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "장승포항",
+        "PRT_AT_CODE": "장승포항(813)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "진해항",
+        "PRT_AT_CODE": "진해항(814)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "통영항",
+        "PRT_AT_CODE": "통영항(815)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "고현항",
+        "PRT_AT_CODE": "고현항(816)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "하동항",
+        "PRT_AT_CODE": "하동항(817)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "울산항",
+        "PRT_AT_CODE": "울산항(820)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "제주항",
+        "PRT_AT_CODE": "제주항(900)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "서귀포항",
+        "PRT_AT_CODE": "서귀포항(901)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "추자항",
+        "PRT_AT_CODE": "추자항(902)"
+      }
+    },
+    {
+      "port": {
+        "PRT_AT_NAME": "화순항",
+        "PRT_AT_CODE": "화순항(903)"
+      }
+    }
+  ]
+}

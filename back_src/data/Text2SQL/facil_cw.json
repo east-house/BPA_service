@@ -1,0 +1,1989 @@
+{
+  "data": [
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "1부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 1부두\n선석 정보 : 10 선석(MB1-00), 11 선석(MB1-01), 12 선석(MB1-02), 13 선석(MB1-03), 14 선석(MB1-04), 15 선석(MB1-05)",
+        "FAC_SUB_CODE": [
+          "10 선석(MB1-00)",
+          "11 선석(MB1-01)",
+          "12 선석(MB1-02)",
+          "13 선석(MB1-03)",
+          "14 선석(MB1-04)",
+          "15 선석(MB1-05)"
+        ],
+        "CODE_LIST": [
+          "MB1-00",
+          "MB1-01",
+          "MB1-02",
+          "MB1-03",
+          "MB1-04",
+          "MB1-05"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "양곡부두(5부두)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 양곡부두(5부두)\n선석 정보 : 51 선석(MB5-01), 52 선석(MB5-02)",
+        "FAC_SUB_CODE": ["51 선석(MB5-01)", "52 선석(MB5-02)"],
+        "CODE_LIST": ["MB5-01", "MB5-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "자성대부두(6부두)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 자성대부두(6부두)\n선석 정보 : 61 선석(MB6-01), 62 선석(MB6-02), 63 선석(MB6-03), 64 선석(MB6-04), 65 선석(MB6-05)",
+        "FAC_SUB_CODE": [
+          "61 선석(MB6-01)",
+          "62 선석(MB6-02)",
+          "63 선석(MB6-03)",
+          "64 선석(MB6-04)",
+          "65 선석(MB6-05)"
+        ],
+        "CODE_LIST": ["MB6-01", "MB6-02", "MB6-03", "MB6-04", "MB6-05"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "7부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 7부두\n선석 정보 : 71 선석(MB7-01), 72 선석(MB7-02), 73 선석(MB7-03), 74 선석(MB7-04)",
+        "FAC_SUB_CODE": [
+          "71 선석(MB7-01)",
+          "72 선석(MB7-02)",
+          "73 선석(MB7-03)",
+          "74 선석(MB7-04)"
+        ],
+        "CODE_LIST": ["MB7-01", "MB7-02", "MB7-03", "MB7-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "우암부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 우암부두\n선석 정보 : 75 선석(MB7-05), 76 선석(MB7-06)",
+        "FAC_SUB_CODE": ["75 선석(MB7-05)", "76 선석(MB7-06)"],
+        "CODE_LIST": ["MB7-05", "MB7-06"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "8부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 8부두\n선석 정보 : 81 선석(MB8-01), 82 선석(MB8-02), 83 선석(MB8-03), 84 선석(MB8-04), 85 선석(MB8-05), 86 선석(MB8-06)",
+        "FAC_SUB_CODE": [
+          "81 선석(MB8-01)",
+          "82 선석(MB8-02)",
+          "83 선석(MB8-03)",
+          "84 선석(MB8-04)",
+          "85 선석(MB8-05)",
+          "86 선석(MB8-06)"
+        ],
+        "CODE_LIST": [
+          "MB8-01",
+          "MB8-02",
+          "MB8-03",
+          "MB8-04",
+          "MB8-05",
+          "MB8-06"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동백섬 위험물 취급부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동백섬 위험물 취급부두\n선석 정보 : (MBB-01)",
+        "FAC_SUB_CODE": ["(MBB-01)"],
+        "CODE_LIST": ["MBB-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동명부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동명부두\n선석 정보 : 1 선석(MBD-01), 2 선석(MBD-02), 3 선석(MBD-03), 4 선석(MBD-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MBD-01)",
+          "2 선석(MBD-02)",
+          "3 선석(MBD-03)",
+          "4 선석(MBD-04)"
+        ],
+        "CODE_LIST": ["MBD-01", "MBD-02", "MBD-03", "MBD-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감만 부두 동측암벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감만 부두 동측암벽\n선석 정보 : 1 선석(MBE-Q1), 2 선석(MBE-Q2), 3 선석(MBE-Q3)",
+        "FAC_SUB_CODE": ["1 선석(MBE-Q1)", "2 선석(MBE-Q2)", "3 선석(MBE-Q3)"],
+        "CODE_LIST": ["MBE-Q1", "MBE-Q2", "MBE-Q3"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감만 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감만 부두\n선석 정보 : 1 선석(MBR-01), 2 선석(MBR-02), 3 선석(MBR-03), 4 선석(MBR-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MBR-01)",
+          "2 선석(MBR-02)",
+          "3 선석(MBR-03)",
+          "4 선석(MBR-04)"
+        ],
+        "CODE_LIST": ["MBR-01", "MBR-02", "MBR-03", "MBR-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신 국제여객 터미널(국제여객부두)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신 국제여객 터미널(국제여객부두)\n선석 정보 : 1 선석(MBF-01), 2 선석(MBF-02), 3 선석(MBF-03), 4 선석(MBF-04), 5 선석(MBF-05), 6 선석(MBF-06), 7 선석(MBF-07), 8 선석(MBF-08), 9 선석(MBF-09), 10 선석(MBF-10), 11 선석(MBF-11), 12 선석(MBF-12), 13 선석(MBF-13), 14 선석(MBF-14)",
+        "FAC_SUB_CODE": [
+          "1 선석(MBF-01)",
+          "2 선석(MBF-02)",
+          "3 선석(MBF-03)",
+          "4 선석(MBF-04)",
+          "5 선석(MBF-05)",
+          "6 선석(MBF-06)",
+          "7 선석(MBF-07)",
+          "8 선석(MBF-08)",
+          "9 선석(MBF-09)",
+          "10 선석(MBF-10)",
+          "11 선석(MBF-11)",
+          "12 선석(MBF-12)",
+          "13 선석(MBF-13)",
+          "14 선석(MBF-14)"
+        ],
+        "CODE_LIST": [
+          "MBF-01",
+          "MBF-02",
+          "MBF-03",
+          "MBF-04",
+          "MBF-05",
+          "MBF-06",
+          "MBF-07",
+          "MBF-08",
+          "MBF-09",
+          "MBF-10",
+          "MBF-11",
+          "MBF-12",
+          "MBF-13",
+          "MBF-14"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "소형선부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 소형선부두\n선석 정보 : 1 선석(MBG-01), 2 선석(MBG-02), 3 선석(MBG-03), 4 선석(MBG-04), 5 선석(MBG-05)",
+        "FAC_SUB_CODE": [
+          "1 선석(MBG-01)",
+          "2 선석(MBG-02)",
+          "3 선석(MBG-03)",
+          "4 선석(MBG-04)",
+          "5 선석(MBG-05)"
+        ],
+        "CODE_LIST": ["MBG-01", "MBG-02", "MBG-03", "MBG-04", "MBG-05"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "한국해양대학부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 한국해양대학부두\n선석 정보 : (MBH-01)",
+        "FAC_SUB_CODE": ["(MBH-01)"],
+        "CODE_LIST": ["MBH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "관공선 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 관공선 부두\n선석 정보 : (MBK-01)",
+        "FAC_SUB_CODE": ["(MBK-01)"],
+        "CODE_LIST": ["MBK-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "미원안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 미원안벽\n선석 정보 : (MBM-01)",
+        "FAC_SUB_CODE": ["(MBM-01)"],
+        "CODE_LIST": ["MBM-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "을숙도",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 을숙도\n선석 정보 : (MBN-01)",
+        "FAC_SUB_CODE": ["(MBN-01)"],
+        "CODE_LIST": ["MBN-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "명지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 명지\n선석 정보 : (MBN-02)",
+        "FAC_SUB_CODE": ["(MBN-02)"],
+        "CODE_LIST": ["MBN-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "용호만 매립부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 용호만 매립부두\n선석 정보 : (MBO-01)",
+        "FAC_SUB_CODE": ["(MBO-01)"],
+        "CODE_LIST": ["MBO-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "백운포 매립부두(해군작전사령부)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 백운포 매립부두(해군작전사령부)\n선석 정보 : (MBO-02)",
+        "FAC_SUB_CODE": ["(MBO-02)"],
+        "CODE_LIST": ["MBO-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "연안여객부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 연안여객부두\n선석 정보 : P1 선석(MBP-01), P2 선석(MBP-02), P3 선석(MBP-03), P4 선석(MBP-04), P5 선석(MBP-05), P6 선석(MBP-06), P7 선석(MBP-07), P8 선석(MBP-08), P9 선석(MBP-09), P10 선석(MBP-10), P11 선석(MBP-11), P12 선석(MBP-12), P13 선석(MBP-13)",
+        "FAC_SUB_CODE": [
+          "P1 선석(MBP-01)",
+          "P2 선석(MBP-02)",
+          "P3 선석(MBP-03)",
+          "P4 선석(MBP-04)",
+          "P5 선석(MBP-05)",
+          "P6 선석(MBP-06)",
+          "P7 선석(MBP-07)",
+          "P8 선석(MBP-08)",
+          "P9 선석(MBP-09)",
+          "P10 선석(MBP-10)",
+          "P11 선석(MBP-11)",
+          "P12 선석(MBP-12)",
+          "P13 선석(MBP-13)"
+        ],
+        "CODE_LIST": [
+          "MBP-01",
+          "MBP-02",
+          "MBP-03",
+          "MBP-04",
+          "MBP-05",
+          "MBP-06",
+          "MBP-07",
+          "MBP-08",
+          "MBP-09",
+          "MBP-10",
+          "MBP-11",
+          "MBP-12",
+          "MBP-13"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "용호부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 용호부두\n선석 정보 : (MBQ-01)",
+        "FAC_SUB_CODE": ["(MBQ-01)"],
+        "CODE_LIST": ["MBQ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신 감만 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신 감만 부두\n선석 정보 : 1 선석(MBR-E1), 2 선석(MBR-E2), 3 선석(MBR-E3)",
+        "FAC_SUB_CODE": ["1 선석(MBR-E1)", "2 선석(MBR-E2)", "3 선석(MBR-E3)"],
+        "CODE_LIST": ["MBR-E1", "MBR-E2", "MBR-E3"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신선대부두(대한동운 부두)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신선대부두(대한동운 부두)\n선석 정보 : 1 선석(MBS-01), 2 선석(MBS-02), 3 선석(MBS-03), 4 선석(MBS-04), 5 선석(MBS-05)",
+        "FAC_SUB_CODE": [
+          "1 선석(MBS-01)",
+          "2 선석(MBS-02)",
+          "3 선석(MBS-03)",
+          "4 선석(MBS-04)",
+          "5 선석(MBS-05)"
+        ],
+        "CODE_LIST": ["MBS-01", "MBS-02", "MBS-03", "MBS-04", "MBS-05"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신선대 행정선 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신선대 행정선 부두\n선석 정보 :  (MBS-SA)",
+        "FAC_SUB_CODE": [" (MBS-SA)"],
+        "CODE_LIST": ["MBS-SA"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "연합부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 연합부두\n선석 정보 : 연1 선석(MBU-01), 연2 선석(MBU-02)",
+        "FAC_SUB_CODE": ["연1 선석(MBU-01)", "연2 선석(MBU-02)"],
+        "CODE_LIST": ["MBU-01", "MBU-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천동원부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천동원부두\n선석 정보 : 1 선석(MBW-01), 2 선석(MBW-02)",
+        "FAC_SUB_CODE": ["1 선석(MBW-01)", "2 선석(MBW-02)"],
+        "CODE_LIST": ["MBW-01", "MBW-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "국제크루즈부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 국제크루즈부두\n선석 정보 : (MBY-01)",
+        "FAC_SUB_CODE": ["(MBY-01)"],
+        "CODE_LIST": ["MBY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "미행부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 미행부두\n선석 정보 : 2 선석(MBY-02), 3 선석(MBY-03)",
+        "FAC_SUB_CODE": ["2 선석(MBY-02)", "3 선석(MBY-03)"],
+        "CODE_LIST": ["MBY-02", "MBY-03"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 B",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천한전부두 안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천한전부두 안벽\n선석 정보 : (MBZ-01)",
+        "FAC_SUB_CODE": ["(MBZ-01)"],
+        "CODE_LIST": ["MBZ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "돌핀 D",
+        "PORT": "부산 항만",
+        "FAC_NAME": "다대포조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 다대포조선소\n선석 정보 : (MDD-01)",
+        "FAC_SUB_CODE": ["(MDD-01)"],
+        "CODE_LIST": ["MDD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "돌핀 D",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동삼동 매립지 앞 해상",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동삼동 매립지 앞 해상\n선석 정보 : (MDJ-01)",
+        "FAC_SUB_CODE": ["(MDJ-01)"],
+        "CODE_LIST": ["MDJ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "돌핀 D",
+        "PORT": "부산 항만",
+        "FAC_NAME": "연합돌핀",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 연합돌핀\n선석 정보 : (MDU-01)",
+        "FAC_SUB_CODE": ["(MDU-01)"],
+        "CODE_LIST": ["MDU-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "돌핀 D",
+        "PORT": "부산 항만",
+        "FAC_NAME": "영도(KOCO) 돌핀",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 영도(KOCO) 돌핀\n선석 정보 : (MDY-01)",
+        "FAC_SUB_CODE": ["(MDY-01)"],
+        "CODE_LIST": ["MDY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "잔교 F",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항 다목적부두 연결잔교",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항 다목적부두 연결잔교\n선석 정보 : (MFL-01)",
+        "FAC_SUB_CODE": ["(MFL-01)"],
+        "CODE_LIST": ["MFL-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 1 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 1 부두\n선석 정보 : 1 선석(MK1-01), 2 선석(MK1-02), 3 선석(MK1-03), 4 선석(MK1-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MK1-01)",
+          "2 선석(MK1-02)",
+          "3 선석(MK1-03)",
+          "4 선석(MK1-04)"
+        ],
+        "CODE_LIST": ["MK1-01", "MK1-02", "MK1-03", "MK1-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 2 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 2 부두\n선석 정보 : 1 선석(MK2-01), 2 선석(MK2-02), 3 선석(MK2-03), 4 선석(MK2-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MK2-01)",
+          "2 선석(MK2-02)",
+          "3 선석(MK2-03)",
+          "4 선석(MK2-04)"
+        ],
+        "CODE_LIST": ["MK2-01", "MK2-02", "MK2-03", "MK2-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 3 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 3 부두\n선석 정보 : 1 선석(MK3-01), 2 선석(MK3-02), 3 선석(MK3-03), 4 선석(MK3-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MK3-01)",
+          "2 선석(MK3-02)",
+          "3 선석(MK3-03)",
+          "4 선석(MK3-04)"
+        ],
+        "CODE_LIST": ["MK3-01", "MK3-02", "MK3-03", "MK3-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 4 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 4 부두\n선석 정보 : 1 선석(MK4-01), 2 선석(MK4-02), 3 선석(MK4-03), 4 선석(MK4-04), 5 선석(MK4-05)",
+        "FAC_SUB_CODE": [
+          "1 선석(MK4-01)",
+          "2 선석(MK4-02)",
+          "3 선석(MK4-03)",
+          "4 선석(MK4-04)",
+          "5 선석(MK4-05)"
+        ],
+        "CODE_LIST": ["MK4-01", "MK4-02", "MK4-03", "MK4-04", "MK4-05"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 5 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 5 부두\n선석 정보 : 1 선석(MK5-01), 2 선석(MK5-02), 3 선석(MK5-03), 4 선석(MK5-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MK5-01)",
+          "2 선석(MK5-02)",
+          "3 선석(MK5-03)",
+          "4 선석(MK5-04)"
+        ],
+        "CODE_LIST": ["MK5-01", "MK5-02", "MK5-03", "MK5-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "삼경안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 삼경안벽\n선석 정보 : (MK5-05)",
+        "FAC_SUB_CODE": ["(MK5-05)"],
+        "CODE_LIST": ["MK5-05"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "쌍용안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 쌍용안벽\n선석 정보 : (MK5-06)",
+        "FAC_SUB_CODE": ["(MK5-06)"],
+        "CODE_LIST": ["MK5-06"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "해양조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 해양조선\n선석 정보 : (MK5-07)",
+        "FAC_SUB_CODE": ["(MK5-07)"],
+        "CODE_LIST": ["MK5-07"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 6 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 6 부두\n선석 정보 : 1 선석(MK6-01), 2 선석(MK6-02), 3 선석(MK6-03)",
+        "FAC_SUB_CODE": ["1 선석(MK6-01)", "2 선석(MK6-02)", "3 선석(MK6-03)"],
+        "CODE_LIST": ["MK6-01", "MK6-02", "MK6-03"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 7 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 7 부두\n선석 정보 : 1 선석(MK7-01), 2 선석(MK7-02)",
+        "FAC_SUB_CODE": ["1 선석(MK7-01)", "2 선석(MK7-02)"],
+        "CODE_LIST": ["MK7-01", "MK7-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 중앙부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 중앙부두\n선석 정보 : 1 선석(MKC-01), 2 선석(MKC-02), 3 선석(MKC-03), 4 선석(MKC-04), 5 선석(MKC-05), A 선석(MKC-SA)",
+        "FAC_SUB_CODE": [
+          "1 선석(MKC-01)",
+          "2 선석(MKC-02)",
+          "3 선석(MKC-03)",
+          "4 선석(MKC-04)",
+          "5 선석(MKC-05)",
+          "A 선석(MKC-SA)"
+        ],
+        "CODE_LIST": [
+          "MKC-01",
+          "MKC-02",
+          "MKC-03",
+          "MKC-04",
+          "MKC-05",
+          "MKC-SA"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "다대부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 다대부두\n선석 정보 : 1 선석(MKD-01), 2 선석(MKD-02)",
+        "FAC_SUB_CODE": ["1 선석(MKD-01)", "2 선석(MKD-02)"],
+        "CODE_LIST": ["MKD-01", "MKD-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 K",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 서방파제",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 서방파제\n선석 정보 : 1 선석(MKW-01), 2 선석(MKW-02), 3 선석(MKW-03)",
+        "FAC_SUB_CODE": ["1 선석(MKW-01)", "2 선석(MKW-02)", "3 선석(MKW-03)"],
+        "CODE_LIST": ["MKW-01", "MKW-02", "MKW-03"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "삼한안벽-01",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 삼한안벽-01\n선석 정보 : (MQA-01)",
+        "FAC_SUB_CODE": ["(MQA-01)"],
+        "CODE_LIST": ["MQA-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "삼한안벽-02",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 삼한안벽-02\n선석 정보 : (MQA-02)",
+        "FAC_SUB_CODE": ["(MQA-02)"],
+        "CODE_LIST": ["MQA-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "삼한안벽-03",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 삼한안벽-03\n선석 정보 : (MQA-03)",
+        "FAC_SUB_CODE": ["(MQA-03)"],
+        "CODE_LIST": ["MQA-03"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "삼한안벽-04",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 삼한안벽-04\n선석 정보 : (MQA-04)",
+        "FAC_SUB_CODE": ["(MQA-04)"],
+        "CODE_LIST": ["MQA-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "부산 수리조선 안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 부산 수리조선 안벽\n선석 정보 : (MQB-01)",
+        "FAC_SUB_CODE": ["(MQB-01)"],
+        "CODE_LIST": ["MQB-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "한진 중공업 안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 한진 중공업 안벽\n선석 정보 : (MBC-01)",
+        "FAC_SUB_CODE": ["(MBC-01)"],
+        "CODE_LIST": ["MBC-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "대선조선안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 대선조선안벽\n선석 정보 : (MQD-01)",
+        "FAC_SUB_CODE": ["(MQD-01)"],
+        "CODE_LIST": ["MQD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천선기조합 조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천선기조합 조선소\n선석 정보 : 안벽 - 1(MQF-01), 안벽 - 2(MQF-02)",
+        "FAC_SUB_CODE": ["안벽 - 1(MQF-01)", "안벽 - 2(MQF-02)"],
+        "CODE_LIST": ["MQF-01", "MQF-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "경남조선안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 경남조선안벽\n선석 정보 : (MQG-01)",
+        "FAC_SUB_CODE": ["(MQG-01)"],
+        "CODE_LIST": ["MQG-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "다대항 대선조선 매립지 안벽(시설)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 다대항 대선조선 매립지 안벽(시설)\n선석 정보 : (MQH-01)",
+        "FAC_SUB_CODE": ["(MQH-01)"],
+        "CODE_LIST": ["MQH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "북항 한진종합건설 부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 북항 한진종합건설 부두\n선석 정보 : (MQH-02)",
+        "FAC_SUB_CODE": ["(MQH-02)"],
+        "CODE_LIST": ["MQH-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동아수산안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동아수산안벽\n선석 정보 : (MQI-01)",
+        "FAC_SUB_CODE": ["(MQI-01)"],
+        "CODE_LIST": ["MQI-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "준설공사 안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 준설공사 안벽\n선석 정보 : (MQJ-01)",
+        "FAC_SUB_CODE": ["(MQJ-01)"],
+        "CODE_LIST": ["MQJ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "극동쉘(현대정유) 안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 극동쉘(현대정유) 안벽\n선석 정보 : (MQK-01)",
+        "FAC_SUB_CODE": ["(MQK-01)"],
+        "CODE_LIST": ["MQK-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동일조선안벽-02",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동일조선안벽-02\n선석 정보 : (MQL-02)",
+        "FAC_SUB_CODE": ["(MQL-02)"],
+        "CODE_LIST": ["MQL-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "모던부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 모던부두\n선석 정보 : (MQM-01)",
+        "FAC_SUB_CODE": ["(MQM-01)"],
+        "CODE_LIST": ["MQM-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 강남조선안벽-01",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 강남조선안벽-01\n선석 정보 : (MQN-01)",
+        "FAC_SUB_CODE": ["(MQN-01)"],
+        "CODE_LIST": ["MQN-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "미창석유안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 미창석유안벽\n선석 정보 : (MQO-01)",
+        "FAC_SUB_CODE": ["(MQO-01)"],
+        "CODE_LIST": ["MQO-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "부산조선2안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 부산조선2안벽\n선석 정보 : (MQP-01)",
+        "FAC_SUB_CODE": ["(MQP-01)"],
+        "CODE_LIST": ["MQP-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "호회냉동안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 호회냉동안벽\n선석 정보 : (MQQ-01)",
+        "FAC_SUB_CODE": ["(MQQ-01)"],
+        "CODE_LIST": ["MQQ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "성창기업 안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 성창기업 안벽\n선석 정보 : (MQS-01)",
+        "FAC_SUB_CODE": ["(MQS-01)"],
+        "CODE_LIST": ["MQS-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동국제강안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동국제강안벽\n선석 정보 : (MQT-01)",
+        "FAC_SUB_CODE": ["(MQT-01)"],
+        "CODE_LIST": ["MQT-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "부광조선 2안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 부광조선 2안벽\n선석 정보 : (MQU-01)",
+        "FAC_SUB_CODE": ["(MQU-01)"],
+        "CODE_LIST": ["MQU-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천한전안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천한전안벽\n선석 정보 : (MQZ-01)",
+        "FAC_SUB_CODE": ["(MQZ-01)"],
+        "CODE_LIST": ["MQZ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천항 기타안벽(돌핀)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천항 기타안벽(돌핀)\n선석 정보 : (MQZ-88)",
+        "FAC_SUB_CODE": ["(MQZ-88)"],
+        "CODE_LIST": ["MQZ-88"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "안벽 Q",
+        "PORT": "부산 항만",
+        "FAC_NAME": "기타안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 기타안벽\n선석 정보 : (MQZ-99)",
+        "FAC_SUB_CODE": ["(MQZ-99)"],
+        "CODE_LIST": ["MQZ-99"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 S",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항1부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항1부두\n선석 정보 : 1 선석(MSN-01), 2 선석(MSN-02), 3 선석(MSN-03)",
+        "FAC_SUB_CODE": ["1 선석(MSN-01)", "2 선석(MSN-02)", "3 선석(MSN-03)"],
+        "CODE_LIST": ["MSN-01", "MSN-02", "MSN-03"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 S",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항2부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항2부두\n선석 정보 : 1 선석(MSN-04), 2 선석(MSN-05), 3 선석(MSN-06), 4 선석(MSN-07), 5 선석(MSN-08), 6 선석(MSN-09)",
+        "FAC_SUB_CODE": [
+          "1 선석(MSN-04)",
+          "2 선석(MSN-05)",
+          "3 선석(MSN-06)",
+          "4 선석(MSN-07)",
+          "5 선석(MSN-08)",
+          "6 선석(MSN-09)"
+        ],
+        "CODE_LIST": [
+          "MSN-04",
+          "MSN-05",
+          "MSN-06",
+          "MSN-07",
+          "MSN-08",
+          "MSN-09"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 S",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항3부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항3부두\n선석 정보 : 1 선석(MS3-01), 2 선석(MS3-02), 3 선석(MS3-03), 4 선석(MS3-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MS3-01)",
+          "2 선석(MS3-02)",
+          "3 선석(MS3-03)",
+          "4 선석(MS3-04)"
+        ],
+        "CODE_LIST": ["MS3-01", "MS3-02", "MS3-03", "MS3-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 S",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항4부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항4부두\n선석 정보 : 1 선석(MS4-01), 2 선석(MS4-02), 3 선석(MS4-03), 4 선석(MS4-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MS4-01)",
+          "2 선석(MS4-02)",
+          "3 선석(MS4-03)",
+          "4 선석(MS4-04)"
+        ],
+        "CODE_LIST": ["MS4-01", "MS4-02", "MS4-03", "MS4-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 S",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항5부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항5부두\n선석 정보 : 1 선석(MS5-01), 2 선석(MS5-02), 3 선석(MS5-03), 4 선석(MS5-04)",
+        "FAC_SUB_CODE": [
+          "1 선석(MS5-01)",
+          "2 선석(MS5-02)",
+          "3 선석(MS5-03)",
+          "4 선석(MS5-04)"
+        ],
+        "CODE_LIST": ["MS5-01", "MS5-02", "MS5-03", "MS5-04"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 S",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항6부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항6부두\n선석 정보 : 1 선석(MS6-01), 2 선석(MS6-02), 3 선석(MS6-03)",
+        "FAC_SUB_CODE": ["1 선석(MS6-01)", "2 선석(MS6-02)", "3 선석(MS6-03)"],
+        "CODE_LIST": ["MS6-01", "MS6-02", "MS6-03"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "선석 S",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항 다목적부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항 다목적부두\n선석 정보 : (MSL-01)",
+        "FAC_SUB_CODE": ["(MSL-01)"],
+        "CODE_LIST": ["MSL-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "1물량장 ",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 1물량장 \n선석 정보 : 1 선석(MW1-01)",
+        "FAC_SUB_CODE": ["1 선석(MW1-01)"],
+        "CODE_LIST": ["MW1-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "2물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 2물량장\n선석 정보 : 1 선석(MW2-01)",
+        "FAC_SUB_CODE": ["1 선석(MW2-01)"],
+        "CODE_LIST": ["MW2-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "3물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 3물량장\n선석 정보 : 1 선석(MW3-01)",
+        "FAC_SUB_CODE": ["1 선석(MW3-01)"],
+        "CODE_LIST": ["MW3-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "4물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 4물량장\n선석 정보 : 1 선석(MW4-01)",
+        "FAC_SUB_CODE": ["1 선석(MW4-01)"],
+        "CODE_LIST": ["MW4-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "5물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 5물량장\n선석 정보 : 1 선석(MW5-01)",
+        "FAC_SUB_CODE": ["1 선석(MW5-01)"],
+        "CODE_LIST": ["MW5-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "봉래동물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 봉래동물량장\n선석 정보 : (MWB-01)",
+        "FAC_SUB_CODE": ["(MWB-01)"],
+        "CODE_LIST": ["MWB-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동삼 물양장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동삼 물양장\n선석 정보 : (MWD-01)",
+        "FAC_SUB_CODE": ["(MWD-01)"],
+        "CODE_LIST": ["MWD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 중앙부두 물량장-01",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 중앙부두 물량장-01\n선석 정보 : (MWK-01)",
+        "FAC_SUB_CODE": ["(MWK-01)"],
+        "CODE_LIST": ["MWK-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천 중앙부두 물량장-02",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천 중앙부두 물량장-02\n선석 정보 : (MWK-02)",
+        "FAC_SUB_CODE": ["(MWK-02)"],
+        "CODE_LIST": ["MWK-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감만시민(역무선)부두",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감만시민(역무선)부두\n선석 정보 : (MWN-01)",
+        "FAC_SUB_CODE": ["(MWN-01)"],
+        "CODE_LIST": ["MWN-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "소형선 부두 W",
+        "PORT": "부산 항만",
+        "FAC_NAME": "세관물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 세관물량장\n선석 정보 : (MWS-01)",
+        "FAC_SUB_CODE": ["(MWS-01)"],
+        "CODE_LIST": ["MWS-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "한진 중공업 조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 한진 중공업 조선소\n선석 정보 : (MYC-01)",
+        "FAC_SUB_CODE": ["(MYC-01)"],
+        "CODE_LIST": ["MYC-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "대선조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 대선조선소\n선석 정보 : (MYD-01)",
+        "FAC_SUB_CODE": ["(MYD-01)"],
+        "CODE_LIST": ["MYD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "선기조합조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 선기조합조선소\n선석 정보 : 1 선석(MYF-01), 2 선석(MYF-02), 3 선석(MYF-03), 4 선석(MYF-04), 5 선석(MYF-05), 6 선석(MYF-06), 7 선석(MYF-07), 8 선석(MYF-08), 9 선석(MYF-09), 10 선석(MYF-10), 11 선석(MYF-11)",
+        "FAC_SUB_CODE": [
+          "1 선석(MYF-01)",
+          "2 선석(MYF-02)",
+          "3 선석(MYF-03)",
+          "4 선석(MYF-04)",
+          "5 선석(MYF-05)",
+          "6 선석(MYF-06)",
+          "7 선석(MYF-07)",
+          "8 선석(MYF-08)",
+          "9 선석(MYF-09)",
+          "10 선석(MYF-10)",
+          "11 선석(MYF-11)"
+        ],
+        "CODE_LIST": [
+          "MYF-01",
+          "MYF-02",
+          "MYF-03",
+          "MYF-04",
+          "MYF-05",
+          "MYF-06",
+          "MYF-07",
+          "MYF-08",
+          "MYF-09",
+          "MYF-10",
+          "MYF-11"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "셔우드코리아",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 셔우드코리아\n선석 정보 : (MYF-12)",
+        "FAC_SUB_CODE": ["(MYF-12)"],
+        "CODE_LIST": ["MYF-12"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "경남조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 경남조선소\n선석 정보 : (MYG-01)",
+        "FAC_SUB_CODE": ["(MYG-01)"],
+        "CODE_LIST": ["MYG-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동아수산조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동아수산조선소\n선석 정보 : (MYI-01)",
+        "FAC_SUB_CODE": ["(MYI-01)"],
+        "CODE_LIST": ["MYI-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동일 조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동일 조선소\n선석 정보 : (MYL-01)",
+        "FAC_SUB_CODE": ["(MYL-01)"],
+        "CODE_LIST": ["MYL-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "강남조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 강남조선소\n선석 정보 : (MYN-01)",
+        "FAC_SUB_CODE": ["(MYN-01)"],
+        "CODE_LIST": ["MYN-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "부산조선안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 부산조선안벽\n선석 정보 : (MYP-01)",
+        "FAC_SUB_CODE": ["(MYP-01)"],
+        "CODE_LIST": ["MYP-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "계류시설 M",
+        "SECONDARY": "조선소 Y",
+        "PORT": "부산 항만",
+        "FAC_NAME": "기타 북항사설 조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 기타 북항사설 조선소\n선석 정보 : (MYQ-01)",
+        "FAC_SUB_CODE": ["(MYQ-01)"],
+        "CODE_LIST": ["MYQ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동명호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동명호안\n선석 정보 : (OLD-01)",
+        "FAC_SUB_CODE": ["(OLD-01)"],
+        "CODE_LIST": ["OLD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "고려 종합운수 호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 고려 종합운수 호안\n선석 정보 : (OLG-01)",
+        "FAC_SUB_CODE": ["(OLG-01)"],
+        "CODE_LIST": ["OLG-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "청학안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 청학안벽\n선석 정보 : (OLH-01)",
+        "FAC_SUB_CODE": ["(OLH-01)"],
+        "CODE_LIST": ["OLH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "적기호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 적기호안\n선석 정보 : (OLJ-01)",
+        "FAC_SUB_CODE": ["(OLJ-01)"],
+        "CODE_LIST": ["OLJ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감만동호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감만동호안\n선석 정보 : (OLM-01)",
+        "FAC_SUB_CODE": ["(OLM-01)"],
+        "CODE_LIST": ["OLM-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동삼안벽",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동삼안벽\n선석 정보 : (OLS-01)",
+        "FAC_SUB_CODE": ["(OLS-01)"],
+        "CODE_LIST": ["OLS-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "대교동호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 대교동호안\n선석 정보 : (OLT-01)",
+        "FAC_SUB_CODE": ["(OLT-01)"],
+        "CODE_LIST": ["OLT-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "영도대교호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 영도대교호안\n선석 정보 : (OLY-01)",
+        "FAC_SUB_CODE": ["(OLY-01)"],
+        "CODE_LIST": ["OLY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "A 박지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : A 박지\n선석 정보 : A1 묘지(WAA-01), A2 묘지(WAA-02), A3 묘지(WAA-03), A4 묘지(WAA-04), A6 묘지(WAA-06)",
+        "FAC_SUB_CODE": [
+          "A1 묘지(WAA-01)",
+          "A2 묘지(WAA-02)",
+          "A3 묘지(WAA-03)",
+          "A4 묘지(WAA-04)",
+          "A6 묘지(WAA-06)"
+        ],
+        "CODE_LIST": ["WAA-01", "WAA-02", "WAA-03", "WAA-04", "WAA-06"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "다대포 다대박지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 다대포 다대박지\n선석 정보 : (WAD-01)",
+        "FAC_SUB_CODE": ["(WAD-01)"],
+        "CODE_LIST": ["WAD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "E 박지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : E 박지\n선석 정보 : E1 묘지(WAE-01), E2 묘지(WAE-02)",
+        "FAC_SUB_CODE": ["E1 묘지(WAE-01)", "E2 묘지(WAE-02)"],
+        "CODE_LIST": ["WAE-01", "WAE-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "검역",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 검역\n선석 정보 : (WAG-01)",
+        "FAC_SUB_CODE": ["(WAG-01)"],
+        "CODE_LIST": ["WAG-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "효동박지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 효동박지\n선석 정보 : (WAH-01)",
+        "FAC_SUB_CODE": ["(WAH-01)"],
+        "CODE_LIST": ["WAH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천항",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천항\n선석 정보 : K박지 K1(WAK-01), K박지 K2(WAK-02), K박지 K4(WAK-04), K박지 K5(WAK-05), K박지 K6(WAK-06), K박지 K7(WAK-07)",
+        "FAC_SUB_CODE": [
+          "K박지 K1(WAK-01)",
+          "K박지 K2(WAK-02)",
+          "K박지 K4(WAK-04)",
+          "K박지 K5(WAK-05)",
+          "K박지 K6(WAK-06)",
+          "K박지 K7(WAK-07)"
+        ],
+        "CODE_LIST": [
+          "WAK-01",
+          "WAK-02",
+          "WAK-04",
+          "WAK-05",
+          "WAK-06",
+          "WAK-07"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천항경도박지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천항경도박지\n선석 정보 : (WAK-03)",
+        "FAC_SUB_CODE": ["(WAK-03)"],
+        "CODE_LIST": ["WAK-03"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "M 묘지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : M 묘지\n선석 정보 : M7 묘지(WAM-07), M8 묘지(WAM-08), M9 묘지(WAM-09), 동명해상 앞(WAM-12)",
+        "FAC_SUB_CODE": [
+          "M7 묘지(WAM-07)",
+          "M8 묘지(WAM-08)",
+          "M9 묘지(WAM-09)",
+          "동명해상 앞(WAM-12)"
+        ],
+        "CODE_LIST": ["WAM-07", "WAM-08", "WAM-09", "WAM-12"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남외항",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남외항\n선석 정보 : N1 박지(WAN-01), N2 박지(WAN-02), N3 박지(WAN-03), N4 박지(WAN-04), N5 박지(WAN-05), 검역박지(WAN-99)",
+        "FAC_SUB_CODE": [
+          "N1 박지(WAN-01)",
+          "N2 박지(WAN-02)",
+          "N3 박지(WAN-03)",
+          "N4 박지(WAN-04)",
+          "N5 박지(WAN-05)",
+          "검역박지(WAN-99)"
+        ],
+        "CODE_LIST": [
+          "WAN-01",
+          "WAN-02",
+          "WAN-03",
+          "WAN-04",
+          "WAN-05",
+          "WAN-99"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "수역 W",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "O 박지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : O 박지\n선석 정보 : O1 묘지(WAO-01), O2 묘지(WAO-02)",
+        "FAC_SUB_CODE": ["O1 묘지(WAO-01)", "O2 묘지(WAO-02)"],
+        "CODE_LIST": ["WAO-01", "WAO-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "수영박지(집단박지)",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 수영박지(집단박지)\n선석 정보 : (WAS-01)",
+        "FAC_SUB_CODE": ["(WAS-01)"],
+        "CODE_LIST": ["WAS-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항\n선석 정보 : U-1 정박지(WAU-01), U-2 정박지(WAU-02), U-3 정박지(WAU-03), U-4 정박지(WAU-04), U-5 정박지(WAU-05), U-6 정박지(WAU-06), W-1 정박지(WAW-01), W-2 정박지(WAW-02)",
+        "FAC_SUB_CODE": [
+          "U-1 정박지(WAU-01)",
+          "U-2 정박지(WAU-02)",
+          "U-3 정박지(WAU-03)",
+          "U-4 정박지(WAU-04)",
+          "U-5 정박지(WAU-05)",
+          "U-6 정박지(WAU-06)",
+          "W-1 정박지(WAW-01)",
+          "W-2 정박지(WAW-02)"
+        ],
+        "CODE_LIST": [
+          "WAU-01",
+          "WAU-02",
+          "WAU-03",
+          "WAU-04",
+          "WAU-05",
+          "WAU-06",
+          "WAW-01",
+          "WAW-02"
+        ]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "감천집단계류지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 감천집단계류지\n선석 정보 : (WAY-01)",
+        "FAC_SUB_CODE": ["(WAY-01)"],
+        "CODE_LIST": ["WAY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "박지 A",
+        "PORT": "부산 항만",
+        "FAC_NAME": "기타정박지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 기타정박지\n선석 정보 : (WAZ-99)",
+        "FAC_SUB_CODE": ["(WAZ-99)"],
+        "CODE_LIST": ["WAZ-99"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "제1도선점",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 제1도선점\n선석 정보 : (WPS-01)",
+        "FAC_SUB_CODE": ["(WPS-01)"],
+        "CODE_LIST": ["WPS-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "제2도선점",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 제2도선점\n선석 정보 : (WPS-02)",
+        "FAC_SUB_CODE": ["(WPS-02)"],
+        "CODE_LIST": ["WPS-02"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "욕망산 사석 적출장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 욕망산 사석 적출장\n선석 정보 : (*AG-01)",
+        "FAC_SUB_CODE": ["(*AG-01)"],
+        "CODE_LIST": ["*AG-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남측 컨테이너 배후단지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남측 컨테이너 배후단지\n선석 정보 : (*BH-01)",
+        "FAC_SUB_CODE": ["(*BH-01)"],
+        "CODE_LIST": ["*BH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "선진조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 선진조선\n선석 정보 : (*DL-01)",
+        "FAC_SUB_CODE": ["(*DL-01)"],
+        "CODE_LIST": ["*DL-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "선진2조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 선진2조선\n선석 정보 : (*DP-01)",
+        "FAC_SUB_CODE": ["(*DP-01)"],
+        "CODE_LIST": ["*DP-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "동성조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 동성조선\n선석 정보 : (*DS-01)",
+        "FAC_SUB_CODE": ["(*DS-01)"],
+        "CODE_LIST": ["*DS-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "복합레저단지",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 복합레저단지\n선석 정보 : (*EF-01)",
+        "FAC_SUB_CODE": ["(*EF-01)"],
+        "CODE_LIST": ["*EF-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "진양조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 진양조선\n선석 정보 : (*GY-01)",
+        "FAC_SUB_CODE": ["(*GY-01)"],
+        "CODE_LIST": ["*GY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "일자방파제",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 일자방파제\n선석 정보 : (*IJ-01)",
+        "FAC_SUB_CODE": ["(*IJ-01)"],
+        "CODE_LIST": ["*IJ-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "자갈치",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 자갈치\n선석 정보 : (*JG-01)",
+        "FAC_SUB_CODE": ["(*JG-01)"],
+        "CODE_LIST": ["*JG-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "조양조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 조양조선\n선석 정보 : (*JY-01)",
+        "FAC_SUB_CODE": ["(*JY-01)"],
+        "CODE_LIST": ["*JY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "과학조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 과학조선\n선석 정보 : (*KH-01)",
+        "FAC_SUB_CODE": ["(*KH-01)"],
+        "CODE_LIST": ["*KH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남부민동호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남부민동호안\n선석 정보 : (*LB-01)",
+        "FAC_SUB_CODE": ["(*LB-01)"],
+        "CODE_LIST": ["*LB-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "충무동호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 충무동호안\n선석 정보 : (*LC-01)",
+        "FAC_SUB_CODE": ["(*LC-01)"],
+        "CODE_LIST": ["*LC-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "경남진흥호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 경남진흥호안\n선석 정보 : (*LK-01)",
+        "FAC_SUB_CODE": ["(*LK-01)"],
+        "CODE_LIST": ["*LK-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남항동호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남항동호안\n선석 정보 : (*LN-01)",
+        "FAC_SUB_CODE": ["(*LN-01)"],
+        "CODE_LIST": ["*LN-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "대평동호안",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 대평동호안\n선석 정보 : (*LP-01)",
+        "FAC_SUB_CODE": ["(*LP-01)"],
+        "CODE_LIST": ["*LP-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남부민방파제",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남부민방파제\n선석 정보 : (*NB-01)",
+        "FAC_SUB_CODE": ["(*NB-01)"],
+        "CODE_LIST": ["*NB-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남항 조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남항 조선\n선석 정보 : (*NH-01)",
+        "FAC_SUB_CODE": ["(*NH-01)"],
+        "CODE_LIST": ["*NH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남양조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남양조선\n선석 정보 : (*NY-01)",
+        "FAC_SUB_CODE": ["(*NY-01)"],
+        "CODE_LIST": ["*NY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "서측 컨테이너 2-5단계",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 서측 컨테이너 2-5단계\n선석 정보 : (*S2-05)",
+        "FAC_SUB_CODE": ["(*S2-05)"],
+        "CODE_LIST": ["*S2-05"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "신항 2-6단계 축조공사",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 신항 2-6단계 축조공사\n선석 정보 : (*S2-06)",
+        "FAC_SUB_CODE": ["(*S2-06)"],
+        "CODE_LIST": ["*S2-06"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "서측 컨테이너 3단계",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 서측 컨테이너 3단계\n선석 정보 : (*S3-01)",
+        "FAC_SUB_CODE": ["(*S3-01)"],
+        "CODE_LIST": ["*S3-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "송도 투기장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 송도 투기장\n선석 정보 : (*SD-01)",
+        "FAC_SUB_CODE": ["(*SD-01)"],
+        "CODE_LIST": ["*SD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "서측 컨테이너 북측피더",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 서측 컨테이너 북측피더\n선석 정보 : (*SF-01)",
+        "FAC_SUB_CODE": ["(*SF-01)"],
+        "CODE_LIST": ["*SF-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "삼화조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 삼화조선\n선석 정보 : (*SH-01)",
+        "FAC_SUB_CODE": ["(*SH-01)"],
+        "CODE_LIST": ["*SH-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "삼영조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 삼영조선\n선석 정보 : (*SY-01)",
+        "FAC_SUB_CODE": ["(*SY-01)"],
+        "CODE_LIST": ["*SY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "공동어시장앞물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 공동어시장앞물량장\n선석 정보 : (*WG-01)",
+        "FAC_SUB_CODE": ["(*WG-01)"],
+        "CODE_LIST": ["*WG-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "남항 물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 남항 물량장\n선석 정보 : (*WN-01)",
+        "FAC_SUB_CODE": ["(*WN-01)"],
+        "CODE_LIST": ["*WN-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "영도수산진흥원 물량장",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 영도수산진흥원 물량장\n선석 정보 : (*WY-01)",
+        "FAC_SUB_CODE": ["(*WY-01)"],
+        "CODE_LIST": ["*WY-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "영도조선",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 영도조선\n선석 정보 : (*YD-01)",
+        "FAC_SUB_CODE": ["(*YD-01)"],
+        "CODE_LIST": ["*YD-01"]
+      }
+    },
+    {
+      "facil": {
+        "PRIMARY": "기타",
+        "SECONDARY": "기타",
+        "PORT": "부산 항만",
+        "FAC_NAME": "기타 남항 사설조선소",
+        "FAC_INFO": "항만 분류 : 부산 항만\n시설명 : 기타 남항 사설조선소\n선석 정보 : (*YQ-01)",
+        "FAC_SUB_CODE": ["(*YQ-01)"],
+        "CODE_LIST": ["*YQ-01"]
+      }
+    }
+  ]
+}
