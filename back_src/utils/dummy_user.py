@@ -7,8 +7,26 @@ class UserModule():
         self.UserDB = {}
 
     def gen_session_id(self):
-        # session_id = str(uuid.uuid4())
-        session_id = 'tmp_session_id'
+        session_id = str(uuid.uuid4())
+        # session_id = 'tmp_session_id'
+        self.UserDB['tmp_session_id'] = {
+            'statistics': {
+                'init': True,
+                'btn1': False,
+                'btn2': False,
+                'upload': '',
+                'download': '',
+                'init_input': '',
+                'save_response': ''
+            },
+            'analysis': {
+                'init': True,
+                'btn1': False,
+                'btn2': False,
+                'init_input': '',
+                'save_response': ''
+            }
+        }
         self.UserDB[session_id] = {
             'statistics': {
                 'init': True,
@@ -16,15 +34,15 @@ class UserModule():
                 'btn2': False,
                 'upload': '',
                 'download': '',
-                'harbor_name': '',
-                'datetime': '',
+                'init_input': '',
+                'save_response': ''
             },
-            'harbor': {
+            'analysis': {
                 'init': True,
                 'btn1': False,
                 'btn2': False,
-                'harbor_name': '',
-                'datetime': '',
+                'init_input': '',
+                'save_response': ''
             }
         }
         return session_id
@@ -38,11 +56,29 @@ class UserModule():
     def get_user_info(self, session_id: str, category: str) -> dict:
         return self.UserDB.get(session_id).get(category)
 
-    # def pre_btn_message(self, session_id: str, category: str, step_number: int):
-    #     return self.UserDB[session_id][category]['history'][-(step_number)]['ai']
+    def set_save_response(self, session_id: str, category: str, value: str):
+        self.UserDB[session_id][category]['save_response'] = value
 
     def set_init(self, session_id: str, value: bool, category: str) -> None:
         self.UserDB[session_id][category]['init'] = value
+
+    def set_init_input(self, session_id: str, value: str, category: str):
+        # if self.UserDB[session_id][category]['init']:
+        #     self.UserDB[session_id][category]['init_input'] = value
+        # test code
+        self.UserDB[session_id][category]['init_input'] = value
+
+    def add_init_input(self, session_id: str, value: str, category: str):
+        self.UserDB[session_id][category]['init_input'] += f' {value}'
+
+    def get_init_input(self, session_id: str, category: str) -> dict:
+        return self.UserDB[session_id][category]['init_input']
+
+    def set_download_fn(self, session_id: str, category: str, value: str):
+        self.UserDB[session_id][category]['download'] = value
+
+    def get_download_fn(self, session_id: str, category: str):
+        return self.UserDB[session_id][category]['download']
 
     def set_filename(self, session_id: str, file_name: str) -> str:
         '''

@@ -125,7 +125,6 @@ def prompt_extract_time(STATE):
 
 def prompt_check_facil(STATE):
     from loguru import logger
-    logger.warning(f'STATE : {STATE}')
     STATE['FORMAT_INSTRUCTIONS'] = PARSER_OBJ.check_facil_parser.get_format_instructions(
     ).encode('utf-8').decode('unicode_escape')
     STATE_COPY = copy.deepcopy(STATE)
@@ -332,7 +331,7 @@ def prompt_generate_plotly(STATE):
         ),
     ]
     logger.warning("plotly 시각화")
-    logger.info(prompt)
+    # logger.info(prompt)
     return prompt
 
 
