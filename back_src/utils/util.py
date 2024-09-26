@@ -1,4 +1,5 @@
 from fastapi import HTTPException, File, status
+from openpyxl import load_workbook
 from loguru import logger
 import json
 import re
@@ -14,12 +15,61 @@ def check_xlsx(check_file: File) -> None:
     if not check_file.filename.lower().endswith('.xlsx'):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
                             detail="The file extension is invalid.")
+
+    from io import BytesIO
+    import pandas as pd
+
     contents = check_file.file.read()
-    # if not contents.startswith(b'%PK'):
-    #     raise HTTPException(status_code=status.HTTP_415_UNSUPPORTED_MEDIA_TYPE,
-    #                         detail="The uploaded file is not a xlsx type PK.")
-    logger.warning(f"check xlsx done!!")
-    return contents
+    try:
+        WB = load_workbook(filename=BytesIO(contents), data_only=True)
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                            detail="The file extension is invalid.")
+
+    try:
+        SHEETLEN = len(WB.sheetnames)
+        if SHEETLEN > 1:
+            logger.warning("시트가 2개이상입니다. 첫번째 시트를 대상으로 양식 확인합니다.")
+            WS = WB.active
+        else:
+            WS = WB.active
+
+        # 데이터프레임 지정 및 전처리
+        df = pd.DataFrame(WS.values)
+        df = df.dropna(how='all')
+        df = df.dropna(axis=1, how='all')
+        cleaned_df = df.reset_index(drop=True)
+
+        # 행을 하나씩 읽어서, NaN값이 하나도 없는 행을 찾음.
+        column_row_index = None
+        for idx, row in cleaned_df.iterrows():
+            nan_count = row.isna().sum()
+            if nan_count == 0:
+                column_row_index = idx
+                break
+            else:
+                pass
+
+        # 실제 표(데이터가 담긴 영역)를 찾아서 데이터프레임으로 변환
+        if column_row_index is not None:
+            DF_FINAL = cleaned_df.iloc[column_row_index:].reset_index(
+                drop=True)
+            DF_FINAL.columns = DF_FINAL.iloc[0]
+            DF_FINAL = DF_FINAL[1:].reset_index(drop=True)
+        else:
+            DF_FINAL = pd.DataFrame()
+
+        row_shape, column_shape = DF_FINAL.shape
+
+        if (row_shape >= 2) and (column_shape >= 1):
+            logger.warning(f"check xlsx done!!")
+            return contents
+        else:
+            HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                          detail="The Excel format is incorrect. Please check the format of the uploaded Excel file.")
+    except:
+        HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                      detail="The Excel format is incorrect. Please check the format of the uploaded Excel file.")
 
 
 def save_xlsx(save_file: File, contents: str) -> str:

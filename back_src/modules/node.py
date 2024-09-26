@@ -79,22 +79,39 @@ class SQLGenerator():
 
         for key in self.USE_INFO.keys():
             if key == "USE_PORT" and self.USE_INFO.get(key) == "YES":
-                PORT_NAME = Chain__extract_port.invoke(self.STATE).content
-                self.EXTRACT_INFO_OBJ.change_str_to_lst(PORT_NAME)
-                self.EXTRACT_INFO_OBJ.extract_port_from_excel()  # self.PORT_INFO 생성
+                try:
+                    PORT_NAME = Chain__extract_port.invoke(self.STATE).content
+                    self.EXTRACT_INFO_OBJ.change_str_to_lst(PORT_NAME)
+                    self.EXTRACT_INFO_OBJ.extract_port_from_excel()  # self.PORT_INFO 생성
+                except:
+                    logger.warning("항구명 추출 파싱오류가 발생했습니다. 기본값인 부산항을 사용합니다.")
+                    self.EXTRACT_INFO_OBJ.PORT_INFO = "항구명 : 부산항, 항구 코드(DB 조회시 사용) : 020"
             if key == "USE_TIME" and self.USE_INFO.get(key) == "YES":
-                self.EXTRACT_INFO_OBJ.set_time_info(
-                    Chain__extract_time.invoke(self.STATE).content)
+                TIME = Chain__extract_time.invoke(self.STATE).content
+                self.EXTRACT_INFO_OBJ.set_time_info(TIME)
             if key == "USE_FACIL" and self.USE_INFO.get(key) == "YES":
-                FACIL_NAME = Chain__extract_facil.invoke(self.STATE).content
-                self.EXTRACT_INFO_OBJ.change_str_to_lst(FACIL_NAME)
-                self.EXTRACT_INFO_OBJ.extract_facil_from_excel()  # self.PORT_INFO 생성
+                try:
+                    FACIL_NAME = Chain__extract_facil.invoke(
+                        self.STATE).content
+                    self.EXTRACT_INFO_OBJ.change_str_to_lst(FACIL_NAME)
+                    self.EXTRACT_INFO_OBJ.extract_facil_from_excel()  # self.FAC_INFO 생성
+                except:
+                    logger.warning("시설명 추출 파싱오류가 발생했습니다. 시설명을 미사용 합니다.")
+                    self.EXTRACT_INFO_OBJ.FAC_INFO = ""
             if key == "USE_IO" and self.USE_INFO.get(key) == "YES":
-                self.EXTRACT_INFO_OBJ.set_IO_info(
-                    Chain__extract_io.invoke(self.STATE).content)
+                try:
+                    IO = Chain__extract_io.invoke(self.STATE).content
+                    self.EXTRACT_INFO_OBJ.set_IO_info(IO)
+                except:
+                    logger.warning("수출입유형 추출 파싱오류가 발생했습니다. 수출입환적을 모두 사용 합니다.")
+                    self.EXTRACT_INFO_OBJ.IO_INFO = "수출입 정보 : II, OO, IT, OT"
             if key == "USE_COUNTRY" and self.USE_INFO.get(key) == "YES":
-                self.EXTRACT_INFO_OBJ.set_COUNTRY_info(
-                    Chain__extract_country.invoke(self.STATE).content)
+                try:
+                    COUNTRY = Chain__extract_country.invoke(self.STATE).content
+                    self.EXTRACT_INFO_OBJ.set_COUNTRY_info(COUNTRY)
+                except:
+                    logger.waring("국가명 추출 파싱오류가 발생했습니다. 국가명을 미사용합니다.")
+                    self.EXTRACT_INFO_OBJ.COUNTRY_INFO = ""
         self.EXTRACT_INFO_OBJ.get_total_info()
 
     def Node__generate_sql(self):

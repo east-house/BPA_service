@@ -368,6 +368,7 @@ def analysis_chain(
     # 최종 저장 객체
     save_response = ''
     relevant_response = ''
+
     # SQL문 생성 chain 동작
     response_init = '### SQL문 생성\n'
     save_response += response_init
@@ -478,15 +479,30 @@ def analysis_chain(
     '''
     # 관련 질문 생성 (검색 기반 이전 대화 참고)
     if user_info['btn1'] == "cancel":
-        relevant_queries = Chain__relevant_query_with_search.invoke({"MESSAGE": prompt_state["CURRENT"]["MESSAGE"],
-                                                                     "ANSWER": relevant_response}).content
-
+        try:
+            relevant_queries = Chain__relevant_query_with_search.invoke({"MESSAGE": prompt_state["CURRENT"]["MESSAGE"],
+                                                                        "ANSWER": relevant_response}).content
+        except:
+            relevant_queries = []
     # 관련 질문 생성 (데이터베이스 기반 이전 대화 참고)
     else:
-        relevant_queries = Chain__relevant_query_with_database.invoke({"MESSAGE": prompt_state["CURRENT"]["MESSAGE"],
-                                                                       "ANSWER": relevant_response}).content
+        try:
+            relevant_queries = Chain__relevant_query_with_database.invoke({"MESSAGE": prompt_state["CURRENT"]["MESSAGE"],
+                                                                           "ANSWER": relevant_response}).content
+        except:
+            relevant_queries = []
     yield wrapped_event(message_id=message_id, session_id=session_id, type='3', plot=content, relevant_query=relevant_queries)
     userDB.set_init_input(session_id, '', category)
+    conv_history.add_predict_chat(
+        {"user": {
+            "message_id": f"{message_id}_user",
+            "data": input_data,
+        },
+            "assistant": {
+            "message_id": f"{message_id}_ai",
+            "data": relevant_response,
+        }}
+    )
     conv_history.add_chat(
         {"user": {
             "message_id": f"{message_id}_user",
@@ -539,6 +555,7 @@ def harbor_chain(
     conv_history.get_history_chats()
     conv_history.get_histotry_format_prompt()
     # 현시점 입력 텍스트 : input_data
+    logger.warning(f"conv_history.HISTORY {conv_history.HISTORY}")
     prompt_state = {
         "CURRENT": {"MESSAGE": input_data},
         "HISTORY": conv_history.HISTORY

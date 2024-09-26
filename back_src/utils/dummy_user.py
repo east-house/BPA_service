@@ -100,20 +100,34 @@ class UserModule():
         '''
         click_value
         '''
+        value_dict = {
+            '회신양식 업로드': True,
+            '회신양식 미업로드': False,
+            '포트미스 데이터 사용': True,
+            '포트미스 데이터 미사용': False
+        }
         if category == 'statistics':
-            value = True if click_value == '회신양식 업로드' else False
+            value = value_dict.get(click_value, 'error')
         else:
-            value = True if click_value == '포트미스 데이터 사용' else False
-        self.UserDB[session_id][category]['btn1'] = value
+            value = value_dict.get(click_value, 'error')
+        if value != 'error':
+            self.UserDB[session_id][category]['btn1'] = value
         return value
 
     def set_btn_two(self, session_id: str, click_value: str, category: str) -> bool:
         '''
         click_value
         '''
+        value_dict = {
+            '회신양식 컬럼 사용': True,
+            '인공지능 생성 컬럼 사용': False,
+            '웹 검색 정보 사용': True,
+            '웹 검색 정보 미사용': False
+        }
         if category == 'statistics':
-            value = True if click_value == '회신양식 컬럼 사용' else False
+            value = value_dict.get(click_value, 'error')
         else:
-            value = True if click_value == '웹 검색 정보 사용' else False
-        self.UserDB[session_id][category]['btn2'] = value
+            value = value_dict.get(click_value, 'error')
+        if value != 'error':
+            self.UserDB[session_id][category]['btn2'] = value
         return value

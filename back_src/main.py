@@ -2,7 +2,7 @@ from utils.text_to_sql import *
 from modules.chain import *
 from modules.service import statistics_chain, harbor_chain
 from fastapi.responses import StreamingResponse, JSONResponse
-from fastapi import FastAPI, HTTPException, Request, status, Body, Header, UploadFile, File
+from fastapi import FastAPI, HTTPException, Request, status, Body, Header, UploadFile, File, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from concurrent.futures import ThreadPoolExecutor
@@ -61,7 +61,16 @@ def http_exception_handler(request, exc):
     return JSONResponse(
         content={
             "state": exc.status_code,
-            "result": "",
+            "result": {
+                "message_id": "",
+                "session_id": "",
+                "type": "",
+                "source": [],
+                "data": "",
+                "plot": "",
+                "relevant_query": [],
+                "download": ""
+            },
             "message": exc.detail
         }
     )
@@ -110,6 +119,9 @@ async def _statistics_chain(
     input_data: str = Body(''),
     session_id: str = Body('tmp_session_id')
 ):
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'statistics'
     message_id = str(uuid.uuid4())[:6]
     conv_history = ConversationHistory(session_id)
@@ -139,6 +151,9 @@ async def _harbor_llm(
     '''
     항만데이터 분석 llm 추론
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'analysis'
     message_id = str(uuid.uuid4())[:6]
     conv_history = ConversationHistory(session_id)
@@ -163,15 +178,18 @@ async def _harbor_llm(
     ########################
 
 
-@ app.post('/load_chat')
+@ app.get('/load_chat')
 async def load_chat(
     request: Request,
-    session_id: str = Body('tmp_session_id'),
+    session_id: str = Query('tmp_session_id'),
 ) -> dict:
     '''
     새로고침 및 뒤로가기 사용시 현재 대화 불러오기\n
     session_id : 대화를 나타내는 객체 key 값
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = "statistics"
     conv_history = ConversationHistory(session_id)
     previous_chats = conv_history.get_all_chats()
@@ -204,9 +222,12 @@ async def statistics_btn_one(
     click_value: str = Body('')
 ) -> dict:
     '''
-    1) 회신양식 업로드 2) 회신양식 미업로드 중에서 선택
+    1) '회신양식 업로드' 2) '회신양식 미업로드 중에서 선택'
     통계 부분에서 사용되는 첫번째 버튼
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'statistics'
     conv_history = ConversationHistory(session_id)
     response = userDB.set_btn_one(session_id, click_value, category)
@@ -214,10 +235,10 @@ async def statistics_btn_one(
     message_id = str(uuid.uuid4())[:6]
     # 회신양식 업로드
     pre_text = f'Selected : {click_value}'
-    # debug part
-    # user_info = userDB.get_user_info(session_id, category)
-    # logger.warning(f"user_info : {user_info}")
-    if response:
+    if response == 'error':
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="Click value was entered incorrectly..")
+    elif response:
         screen_type = '2'
         conv_history.add_chat(
             {
@@ -244,6 +265,11 @@ async def statistics_btn_one(
         return StreamingResponse(wrapped_string_generator(data, session_id, screen_type, message_id,))
     else:
         screen_type = '4'
+        # 통계용 LLM chain
+        input_data = userDB.get_init_input(session_id, category)
+        if input_data == '':
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT, detail="The process order is incorrect, so llm cannot be run..")
         conv_history.add_chat(
             {
                 "user": {
@@ -265,8 +291,6 @@ async def statistics_btn_one(
                     "download": ""
                 }}
         )
-        # 통계용 LLM chain
-        input_data = userDB.get_init_input(session_id, category)
         response = statistics_chain(
             input_data, session_id, userDB, extract_info, message_id, screen_type)
         return StreamingResponse(response)
@@ -279,16 +303,25 @@ async def statistics_btn_two(
     click_value: str = Body('')
 ) -> dict:
     '''
-    1) 회신양식 컬럼 사용 2) 인공지능 생성 컬럼 사용
+    1) '회신양식 컬럼 사용' 2) '인공지능 생성 컬럼 사용'
     통계 부분에서 사용되는 두번째 버튼
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'statistics'
     response = userDB.set_btn_two(session_id, click_value, category)
     message_id = str(uuid.uuid4())[:6]
     conv_history = ConversationHistory(session_id)
-    chat_history = conv_history.get_all_chats()
-    pre_data = chat_history[-1]['assistant']['data']
-    if response:
+    try:
+        chat_history = conv_history.get_all_chats()
+        pre_data = chat_history[-1]['assistant']['data']
+    except:
+        pre_data = ''
+    if response == 'error':
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="Click value was entered incorrectly..")
+    elif isinstance(response, bool):
         screen_type = '3'
         current_data = f'Selected : {click_value}'
         send_data = f"{pre_data}\n\n{current_data}"
@@ -329,6 +362,9 @@ async def upload_file(
     # 파일 업로드
     단순 파일 업로드 xlsx 확장자만 가능하고 파일 갯수는 1개
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'statistics'
     message_id = str(uuid.uuid4())[:6]
     conv_history = ConversationHistory(session_id)
@@ -341,13 +377,21 @@ async def upload_file(
         xlsx_path = check_save_xlsx(fi)
     file_name = os.path.basename(xlsx_path)
 
-    chat_history = conv_history.get_all_chats()
-    pre_data = f"{chat_history[-2]['assistant']['data']}\n\n{chat_history[-1]['assistant']['data']}"
+    try:
+        chat_history = conv_history.get_all_chats()
+        pre_data = f"{chat_history[-2]['assistant']['data']}\n\n{chat_history[-1]['assistant']['data']}"
+    except:
+        pre_data = ''
     current_data = f'File: {file_name}'
     send_data = f'{pre_data}\n\n\{current_data}'
     response = userDB.set_filename(session_id, xlsx_path)
     if response:
         screen_type = '4'
+        # 통계용 LLM chain
+        input_data = userDB.get_init_input(session_id, category)
+        if input_data == '':
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT, detail="The process order is incorrect, so llm cannot be run..")
         conv_history.add_chat(
             {
                 "user": {
@@ -369,8 +413,6 @@ async def upload_file(
                     "download": ""
                 }}
         )
-        # 통계용 LLM chain
-        input_data = userDB.get_init_input(session_id, category)
         response = statistics_chain(
             input_data, session_id, userDB, extract_info, message_id, screen_type, file_name=send_data)
         return StreamingResponse(response)
@@ -388,6 +430,9 @@ async def download_file(
     '''
     # 파일 다운로드
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'statistics'
     try:
         return JSONResponse(
@@ -408,6 +453,9 @@ async def statistics_llm(
     input_data: str = Body(''),
     session_id: str = Body('tmp_session_id'),
 ) -> dict:
+    '''
+    통계 리포트 생성 llm 추론 
+    '''
     category = 'statistics'
     message_id = str(uuid.uuid4())[:6]
     conv_history = ConversationHistory(session_id)
@@ -418,6 +466,7 @@ async def statistics_llm(
     elif userDB.check_session_id(session_id):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
+
     # 유저 정보 들고옴
     user_info = userDB.get_user_info(session_id, category)
     # 초기 질문 사용자 정보에 저장
@@ -462,19 +511,27 @@ async def harbor_btn_one(
     session_id: str = Body('tmp_session_id')
 ) -> dict:
     '''
-    항만데이터분석 방법 선택 버튼1
+    1) '포트미스 데이터 사용' 2) '포트미스 데이터 미사용' 항만 데이터분석에서 사용되는 첫번째 버튼
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'analysis'
     response = userDB.set_btn_one(session_id, click_value, category)
     userDB.set_init(session_id, False, category)
     conv_history = ConversationHistory(session_id)
     message_id = str(uuid.uuid4())[:6]
     pre_text = f'Selected : {click_value}'
-
-    if response:
+    input_data = userDB.get_init_input(session_id, category)
+    if response == 'error':
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="Click value was entered incorrectly..")
+    elif response:
         screen_type = '3'
+        if input_data == '':
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT, detail="The process order is incorrect, so llm cannot be run..")
         # 초기 입력 데이터
-        input_data = userDB.get_init_input(session_id, category)
         conv_history.add_chat(
             {
                 "user": {
@@ -536,18 +593,26 @@ async def harbor_btn_two(
     session_id: str = Body('tmp_session_id')
 ) -> dict:
     '''
-    항만데이터분석 방법 선택 버튼2
+    1) '웹 검색 정보 사용' 2) '웹 검색 정보 미사용' 항만 데이터분석에서 사용되는 두번째 버튼
     '''
+    if userDB.check_session_id(session_id):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="session_id is not exist..")
     category = 'analysis'
     response = userDB.set_btn_two(session_id, click_value, category)
     message_id = str(uuid.uuid4())[:6]
     screen_type = '3'
+    if response == 'error':
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="Click value was entered incorrectly..")
     conv_history = ConversationHistory(session_id)
-    chat_history = conv_history.get_all_chats()
-    logger.warning(f"chat_history : {chat_history}")
-    pre_text = chat_history[-1]['assistant']['data']
+    try:
+        chat_history = conv_history.get_all_chats()
+        pre_data = chat_history[-1]['assistant']['data']
+    except:
+        pre_data = ''
     current_text = f'Selected : {click_value}'
-    send_data = f"{pre_text}\n\n{current_text}"
+    send_data = f"{pre_data}\n\n{current_text}"
     conv_history.add_chat(
         {
             "user": {
@@ -572,6 +637,9 @@ async def harbor_btn_two(
 
     # 초기 입력 데이터
     input_data = userDB.get_init_input(session_id, category)
+    if input_data == '':
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT, detail="The process order is incorrect, so llm cannot be run..")
     # 통계용 LLM chain
     response = harbor_chain(input_data, session_id,
                             userDB, extract_info, message_id, screen_type, send_data)

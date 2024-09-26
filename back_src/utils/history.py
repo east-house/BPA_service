@@ -25,6 +25,19 @@ class ConversationHistory():
         #     self.REDIS_CLIENT.lpop(key)  # 리스트의 왼쪽 첫 번째 요소를 제거
         #     self.REDIS_CLIENT.rpush(key, message_json)  # 새로운 요소를 오른쪽 끝에 추가
 
+    def add_predict_chat(self, message_dict):
+        key = f"session:{self.SESSION_ID}:predict_chats"
+        message_json = json.dumps(message_dict, ensure_ascii=False)
+        list_length = self.REDIS_CLIENT.llen(key)
+        self.REDIS_CLIENT.rpush(key, message_json)
+
+    def get_predict_chat(self):
+        key = f"session:{self.SESSION_ID}:predict_chats"
+        chats = self.REDIS_CLIENT.lrange(key, 0, -1)  # 모든 대화 로드
+        chats = [json.loads(chat.decode('utf-8'))
+                 for chat in chats][-2:]  # 디코딩
+        return chats
+
     def get_chats(self) -> List[Dict]:
         '''
             Des: 
@@ -65,7 +78,7 @@ class ConversationHistory():
             Des: 
                 특정 세션의 대화 조회후 멀티턴 포맷으로 변경 (user, assistant)
         '''
-        PREVIOUS_CHATS = self.get_chats()
+        PREVIOUS_CHATS = self.get_predict_chat()
         if PREVIOUS_CHATS:
             self.CHATS = []
             for chat in PREVIOUS_CHATS[-2:]:

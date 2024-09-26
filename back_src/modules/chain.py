@@ -13,10 +13,10 @@ Chain__rewrite_request = prompt_rewrite_request | LLM
 Chain__classify_request = prompt_classify_request | LLM | PARSER_OBJ.check_query_parser
 
 # 추출여부
-Chain__check_port = prompt_check_port | LLM | PARSER_OBJ.check_port_parser
+Chain__check_port = prompt_check_port | LLM  # | PARSER_OBJ.check_port_parser
 Chain__check_time = prompt_check_time | LLM
-Chain__check_facil = prompt_check_facil | LLM | PARSER_OBJ.check_facil_parser
-Chain__check_io = prompt_check_iotype | LLM | PARSER_OBJ.check_io_parser
+Chain__check_facil = prompt_check_facil | LLM  # | PARSER_OBJ.check_facil_parser
+Chain__check_io = prompt_check_iotype | LLM  # | PARSER_OBJ.check_io_parser
 Chain__check_country = prompt_check_country | LLM
 
 # 추출
